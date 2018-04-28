@@ -4,10 +4,10 @@ vuepress build
 
 cd ..
 
-git add .
+git add -A
 
 git commit -am 'deploy'
 
-git push origin master 
+git push origin blog 
 
-git subtree push --prefix  docs/vuepress  origin gh-pages
+git subtree push --prefix  docs/blog  origin master
