@@ -4,6 +4,8 @@ vuepress build
 
 cd ..
 
+git pull
+
 git add -A
 
 git commit -am 'deploy'
