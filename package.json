@@ -11,7 +11,7 @@
     "build": "node bin/vuepress build docs",
     "lint": "eslint bin lib test",
     "deploy-gh": "yarn build && bash scripts/deploy-gh.sh",
-    "deploy": "bash scripts/deploy-gh.sh",
+    "deploy": "bash scripts/deploy.sh",
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
   },
   "repository": {

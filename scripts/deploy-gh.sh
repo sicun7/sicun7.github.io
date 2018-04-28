@@ -1,4 +1,4 @@
-cd vuepress
+cd docs/vuepress
 git init
 git add -A
 git commit -m 'deploy'
