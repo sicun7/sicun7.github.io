@@ -4,7 +4,7 @@ vuepress build
 
 cd ..
 
-git pull
+git pull origin blog
 
 git add -A
 
